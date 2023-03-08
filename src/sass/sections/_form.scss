@@ -1,0 +1,44 @@
+.form-body {
+    background-color: $primary-color;
+}
+
+#sign-up-form {
+    background-color: $primary-color;
+    color: $white-color;
+    width: 70rem;
+    margin-top: 20em;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px;
+
+    .title-text {
+        font-size: 50px;
+        text-align: center;
+    }
+
+    .subscribe-button {
+        margin-right: 300em;
+        letter-spacing: 2px;
+        font-size: 13px;
+        text-transform: uppercase;
+        z-index: 1;
+        transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.6s;
+        color: $white-color;
+        background-color: $primary-color;
+        
+        padding: 0.8rem $default-font-size;
+        font-weight: bold;
+        line-height: 1;
+        width: 12em;
+        height: 4em;
+        border-radius: none;
+
+        &:hover {
+            background-color: $white-color;
+            color: $primary-color;
+            border-color: $primary-color;
+            transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.3s;
+        }
+        
+    }
+}
