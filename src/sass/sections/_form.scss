@@ -1,32 +1,37 @@
+body {
+    background-color: #496A81;
+}
+
 .form-body {
-    background-color: $primary-color;
+    background-color: #496A81;
 }
 
 #sign-up-form {
-    background-color: $primary-color;
-    color: $white-color;
-    width: 70rem;
-    margin-top: 20em;
+    background-color: #496A81;
+    color: #fff;
+    width: 60rem;
+    margin-top: 13em;
     margin-left: auto;
     margin-right: auto;
     padding: 50px;
 
     .title-text {
         font-size: 50px;
-        text-align: center;
+        margin-left: 3.3em;
+        margin-bottom: 1em;
     }
 
     .subscribe-button {
-        margin-right: 300em;
+        margin-right: 560em;
         letter-spacing: 2px;
         font-size: 13px;
         text-transform: uppercase;
         z-index: 1;
         transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.6s;
-        color: $white-color;
-        background-color: $primary-color;
+        color: #fff;
+        background-color: #496A81;
         
-        padding: 0.8rem $default-font-size;
+        padding: 0.8rem 1.6rem;
         font-weight: bold;
         line-height: 1;
         width: 12em;
@@ -34,9 +39,9 @@
         border-radius: none;
 
         &:hover {
-            background-color: $white-color;
-            color: $primary-color;
-            border-color: $primary-color;
+            background-color: #fff;
+            color: #496A81;
+            border-color: #496A81;
             transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.3s;
         }
         
